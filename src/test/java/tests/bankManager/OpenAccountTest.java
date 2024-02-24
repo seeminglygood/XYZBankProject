@@ -15,7 +15,6 @@ public class OpenAccountTest extends Hooks {
         homePage.clickBankManagerLogin();
 
         BankManagerPage bankManagerPage = new BankManagerPage(getDriver());
-        bankManagerPage.clickCustomers();
         bankManagerPage.openAccount();
     }
 }

@@ -135,6 +135,7 @@ public class BankManagerPage extends BasePage {
     public void openAccount() {
         clickCustomers();
         String initialAccountNumbers = getCellDataCustomersTable(0, 3);
+        LoggerUtility.info("The user checks the initial account numbers for the 1st customer in the table. They are: " + initialAccountNumbers);
         selectCustomerName();
         selectCurrency();
         elementsMethods.clickElement(submitTypeCTAButton);
@@ -145,7 +146,7 @@ public class BankManagerPage extends BasePage {
         clickCustomers();
         String updatedAccountNumbers = getCellDataCustomersTable(0, 3);
         Assert.assertEquals(updatedAccountNumbers, initialAccountNumbers + " " + addedAccountNumber);
-        LoggerUtility.info("The Account Number from the confirmation text- " + addedAccountNumber + " -is successfully displayed in the Account Number cell on the Customers Table for the respective customer.");
+        LoggerUtility.info("The Account Number from the confirmation text- " + addedAccountNumber + " -is successfully added in the Account Number cell on the Customers Table for the respective customer: " + updatedAccountNumbers);
     }
 
     /////////////////////////////////// Methods for CUSTOMERS sub-page ///////////////////////////////////
