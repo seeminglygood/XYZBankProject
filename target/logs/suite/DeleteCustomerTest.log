@@ -1,0 +1,8 @@
+[2024-02-24T19:17:04,960][INFO ][TestNG-test=Regression Tests-1] ===================== Execution started: DeleteCustomerTest =====================
+[2024-02-24T19:17:15,086][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.homePage.HomePage: clickBankManagerLogin ==>  The user clicks the Bank Manager Login button from the Home Page.
+[2024-02-24T19:17:16,034][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.bankManagerLogin.BankManagerPage: clickCustomers ==>  The user clicks on the Customers button from the Bank Manager page.
+[2024-02-24T19:17:18,368][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.bankManagerLogin.BankManagerPage: clickCustomers ==>  The Search Customer bar and the Customers Table are both visible.
+[2024-02-24T19:17:18,404][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.bankManagerLogin.BankManagerPage: deleteCustomer ==>  The user checks the size of the Customers table, which is: 5
+[2024-02-24T19:17:18,758][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.bankManagerLogin.BankManagerPage: deleteCustomer ==>  The user successfully deletes the first entry in the Customers table. 
+[2024-02-24T19:17:18,795][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.bankManagerLogin.BankManagerPage: deleteCustomer ==>  The user re-checks the Customers table size, which reflects that 1 customer was deleted and now is: 4
+[2024-02-24T19:17:18,885][INFO ][TestNG-test=Regression Tests-1] ===================== Execution ended: DeleteCustomerTest =====================

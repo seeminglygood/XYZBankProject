@@ -1,0 +1,6 @@
+[2024-02-24T17:14:57,662][INFO ][main] ===================== Execution started: CustomerAccountTest =====================
+[2024-02-24T17:15:08,697][ERROR][main] main : sharedData.Hooks: clearEnvironment ==>  Element should have been "select" but was "strong"
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.1.2', java.version: '20.0.2.1'
+Driver info: driver.version: unknown
+[2024-02-24T17:15:08,700][INFO ][main] ===================== Test failed  =====================

@@ -1,0 +1,8 @@
+[2024-02-24T19:16:38,639][INFO ][TestNG-test=Regression Tests-5] ===================== Execution started: SearchCustomerTest =====================
+[2024-02-24T19:16:57,576][INFO ][TestNG-test=Regression Tests-5] TestNG-test=Regression Tests-5 : pages.homePage.HomePage: clickBankManagerLogin ==>  The user clicks the Bank Manager Login button from the Home Page.
+[2024-02-24T19:16:58,510][INFO ][TestNG-test=Regression Tests-5] TestNG-test=Regression Tests-5 : pages.bankManagerLogin.BankManagerPage: clickCustomers ==>  The user clicks on the Customers button from the Bank Manager page.
+[2024-02-24T19:17:03,477][INFO ][TestNG-test=Regression Tests-5] TestNG-test=Regression Tests-5 : pages.bankManagerLogin.BankManagerPage: clickCustomers ==>  The Search Customer bar and the Customers Table are both visible.
+[2024-02-24T19:17:03,558][INFO ][TestNG-test=Regression Tests-5] TestNG-test=Regression Tests-5 : pages.bankManagerLogin.BankManagerPage: searchCustomer ==>  The user checks the number of entries in the Customers table, which is: 5
+[2024-02-24T19:17:07,060][INFO ][TestNG-test=Regression Tests-5] TestNG-test=Regression Tests-5 : pages.bankManagerLogin.BankManagerPage: searchCustomer ==>  The user enters in the Search Customer bar the first name of the first customer in the table.
+[2024-02-24T19:17:07,365][INFO ][TestNG-test=Regression Tests-5] TestNG-test=Regression Tests-5 : pages.bankManagerLogin.BankManagerPage: searchCustomer ==>  The user notices that the Customers Table size changed to display only the Customer for which the search was performed.
+[2024-02-24T19:17:07,454][INFO ][TestNG-test=Regression Tests-5] ===================== Execution ended: SearchCustomerTest =====================

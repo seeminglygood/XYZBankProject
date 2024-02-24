@@ -1,0 +1,9 @@
+[2024-02-24T19:16:38,627][INFO ][TestNG-test=Regression Tests-2] ===================== Execution started: GenericCustomerLoginTest =====================
+[2024-02-24T19:16:58,612][INFO ][TestNG-test=Regression Tests-2] TestNG-test=Regression Tests-2 : pages.homePage.HomePage: clickCustomerLoginButton ==>  The user clicks the Customer Login button from the Home Page.
+[2024-02-24T19:17:00,520][INFO ][TestNG-test=Regression Tests-2] TestNG-test=Regression Tests-2 : pages.customerLogin.CustomerLoginPage: selectCustomer ==>  The user selects a customer from the dropdown selector; customer position in list is: 1
+[2024-02-24T19:17:01,497][INFO ][TestNG-test=Regression Tests-2] TestNG-test=Regression Tests-2 : pages.customerLogin.CustomerLoginPage: clickLogin ==>  The user clicks on the Login button.
+[2024-02-24T19:17:03,565][INFO ][TestNG-test=Regression Tests-2] TestNG-test=Regression Tests-2 : pages.customerLogin.CustomerLoginPage: loginAndLogoutCustomer ==>  The customer login was successful, the Customer Account page is displayed.
+[2024-02-24T19:17:03,576][INFO ][TestNG-test=Regression Tests-2] TestNG-test=Regression Tests-2 : pages.customerLogin.CustomerLoginPage: loginAndLogoutCustomer ==>  The Customer Account page URL is correct: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/account
+[2024-02-24T19:17:04,584][INFO ][TestNG-test=Regression Tests-2] TestNG-test=Regression Tests-2 : pages.customerLogin.CustomerLoginPage: clickLogout ==>  The user clicks on the Logout button.
+[2024-02-24T19:17:04,834][INFO ][TestNG-test=Regression Tests-2] TestNG-test=Regression Tests-2 : pages.customerLogin.CustomerLoginPage: loginAndLogoutCustomer ==>  The customer logout was successful, the Customer Login page is once more displayed.
+[2024-02-24T19:17:04,974][INFO ][TestNG-test=Regression Tests-2] ===================== Execution ended: GenericCustomerLoginTest =====================
