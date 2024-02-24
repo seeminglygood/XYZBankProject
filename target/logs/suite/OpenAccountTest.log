@@ -1,1 +1,20 @@
-[2024-02-24T20:51:04,271][INFO ][TestNG-test=Regression Tests-3] ===================== Execution started: OpenAccountTest =====================
+[2024-02-24T20:56:47,705][INFO ][main] ===================== Execution started: OpenAccountTest =====================
+[2024-02-24T20:56:51,606][INFO ][main] main : sharedData.browser.SafariBrowserService: openBrowser ==>  The browser was opened, XYZ Bank Home page was loaded.
+[2024-02-24T20:56:51,987][INFO ][main] main : pages.homePage.HomePage: clickBankManagerLogin ==>  The user clicks the Bank Manager Login button from the Home Page.
+[2024-02-24T20:56:52,269][INFO ][main] main : pages.bankManagerLogin.BankManagerPage: clickCustomers ==>  The user clicks on the Customers button from the Bank Manager page.
+[2024-02-24T20:56:52,603][INFO ][main] main : pages.bankManagerLogin.BankManagerPage: clickCustomers ==>  The Search Customer bar and the Customers Table are both visible.
+[2024-02-24T20:56:52,644][INFO ][main] main : pages.bankManagerLogin.BankManagerPage: clickCustomers ==>  The user clicks on the Customers button from the Bank Manager page.
+[2024-02-24T20:56:52,700][INFO ][main] main : pages.bankManagerLogin.BankManagerPage: clickCustomers ==>  The Search Customer bar and the Customers Table are both visible.
+[2024-02-24T20:56:53,193][INFO ][main] main : pages.bankManagerLogin.BankManagerPage: clickOpenAccount ==>  The user clicks on the Open Account button from the Bank Manager page.
+[2024-02-24T20:56:53,542][INFO ][main] main : pages.bankManagerLogin.BankManagerPage: clickOpenAccount ==>  The Open Account form appears.
+[2024-02-24T20:56:53,586][INFO ][main] main : pages.bankManagerLogin.BankManagerPage: selectCustomerName ==>  The user fills in the Customer field with the name and surname of an existing customer: Hermoine Granger
+[2024-02-24T20:56:53,651][INFO ][main] main : pages.bankManagerLogin.BankManagerPage: selectCurrency ==>  The user selects the first Currency type in the Currency selector.
+[2024-02-24T20:56:53,698][INFO ][main] main : pages.bankManagerLogin.BankManagerPage: openAccount ==>  The user clicks the Process button at the bottom of the Open Account form.
+[2024-02-24T20:57:04,124][ERROR][main] main : sharedData.Hooks: clearEnvironment ==>  Expected condition failed: waiting for alert to be present (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.14.1', revision: '03f8ede370'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '14.1.2', java.version: '20.0.2.1'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 17.1.2, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:disabledSandbox: --nosandbox, safari:gpusupport: --disable-gpu, safari:platformBuildVersion: 23B92, safari:platformVersion: 14.1.2, safari:resolution: window-size=1920,1080, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 2BDB2710-251B-409D-A5BB-2CD4C2913C3E
+[2024-02-24T20:57:04,124][INFO ][main] ===================== Test failed  =====================
+[2024-02-24T20:57:04,375][INFO ][main] main : sharedData.SharedData: clear ==>  The browser was closed.

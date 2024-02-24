@@ -38,6 +38,10 @@ public class BrowserFactory {
                 SafariBrowserService safariBrowserService = new SafariBrowserService();
                 safariBrowserService.openBrowser(cicd);
                 return safariBrowserService.getDriver();
+            case "edge":
+                EdgeBrowserService edgeBrowserService = new EdgeBrowserService();
+                edgeBrowserService.openBrowser(cicd);
+                return edgeBrowserService.getDriver();
             // Based on the value of 'browser', an instance of a specific browser service is created:
             // (ChromeBrowserService,FirefoxBrowserService, or SafariBrowserService).
             //Each browser service is responsible for tasks related to its respective browser, such
