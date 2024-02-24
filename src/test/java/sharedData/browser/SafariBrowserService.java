@@ -21,7 +21,7 @@ public class SafariBrowserService extends BaseBrowserService implements BrowserS
         driver.manage().window().maximize();
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        LoggerUtility.info("The browser was opened, ToolsQA Home page was loaded.");
+        LoggerUtility.info("The browser was opened, XYZ Bank Home page was loaded.");
     }
 
     @Override
