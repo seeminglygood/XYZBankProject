@@ -1,47 +1,11 @@
 Contents of file OpenAccountTest.log
-[2024-02-24T19:16:38,649][INFO ][TestNG-test=Regression Tests-4] ===================== Execution started: OpenAccountTest =====================
-[2024-02-24T19:16:57,646][INFO ][TestNG-test=Regression Tests-4] TestNG-test=Regression Tests-4 : pages.homePage.HomePage: clickBankManagerLogin ==>  The user clicks the Bank Manager Login button from the Home Page.
-[2024-02-24T19:16:58,509][INFO ][TestNG-test=Regression Tests-4] TestNG-test=Regression Tests-4 : pages.bankManagerLogin.BankManagerPage: clickCustomers ==>  The user clicks on the Customers button from the Bank Manager page.
-[2024-02-24T19:17:02,038][INFO ][TestNG-test=Regression Tests-4] TestNG-test=Regression Tests-4 : pages.bankManagerLogin.BankManagerPage: clickCustomers ==>  The Search Customer bar and the Customers Table are both visible.
-[2024-02-24T19:17:02,698][INFO ][TestNG-test=Regression Tests-4] TestNG-test=Regression Tests-4 : pages.bankManagerLogin.BankManagerPage: clickCustomers ==>  The user clicks on the Customers button from the Bank Manager page.
-[2024-02-24T19:17:02,975][INFO ][TestNG-test=Regression Tests-4] TestNG-test=Regression Tests-4 : pages.bankManagerLogin.BankManagerPage: clickCustomers ==>  The Search Customer bar and the Customers Table are both visible.
-[2024-02-24T19:17:07,941][INFO ][TestNG-test=Regression Tests-4] TestNG-test=Regression Tests-4 : pages.bankManagerLogin.BankManagerPage: clickOpenAccount ==>  The user clicks on the Open Account button from the Bank Manager page.
-[2024-02-24T19:17:09,254][INFO ][TestNG-test=Regression Tests-4] TestNG-test=Regression Tests-4 : pages.bankManagerLogin.BankManagerPage: clickOpenAccount ==>  The Open Account form appears.
-[2024-02-24T19:17:10,273][INFO ][TestNG-test=Regression Tests-4] TestNG-test=Regression Tests-4 : pages.bankManagerLogin.BankManagerPage: selectCustomerName ==>  The user fills in the Customer field with the name and surname of an existing customer: Hermoine Granger
-[2024-02-24T19:17:11,360][INFO ][TestNG-test=Regression Tests-4] TestNG-test=Regression Tests-4 : pages.bankManagerLogin.BankManagerPage: selectCurrency ==>  The user selects the first Currency type in the Currency selector.
-[2024-02-24T19:17:12,104][INFO ][TestNG-test=Regression Tests-4] TestNG-test=Regression Tests-4 : pages.bankManagerLogin.BankManagerPage: openAccount ==>  The user clicks the Process button at the bottom of the Open Account form.
-[2024-02-24T19:17:12,136][INFO ][TestNG-test=Regression Tests-4] TestNG-test=Regression Tests-4 : pages.bankManagerLogin.BankManagerPage: openAccount ==>  An alert confirmation message is displayed: Account created successfully with account Number :1016
-[2024-02-24T19:17:12,882][INFO ][TestNG-test=Regression Tests-4] TestNG-test=Regression Tests-4 : pages.bankManagerLogin.BankManagerPage: clickCustomers ==>  The user clicks on the Customers button from the Bank Manager page.
-[2024-02-24T19:17:13,037][INFO ][TestNG-test=Regression Tests-4] TestNG-test=Regression Tests-4 : pages.bankManagerLogin.BankManagerPage: clickCustomers ==>  The Search Customer bar and the Customers Table are both visible.
-[2024-02-24T19:17:13,470][INFO ][TestNG-test=Regression Tests-4] TestNG-test=Regression Tests-4 : pages.bankManagerLogin.BankManagerPage: openAccount ==>  The Account Number from the confirmation text- 1016 -is successfully displayed in the Account Number cell on the Customers Table for the respective customer.
-[2024-02-24T19:17:13,596][INFO ][TestNG-test=Regression Tests-4] ===================== Execution ended: OpenAccountTest =====================
+[2024-02-24T20:51:04,271][INFO ][TestNG-test=Regression Tests-3] ===================== Execution started: OpenAccountTest =====================
 Contents of file SearchCustomerTest.log
-[2024-02-24T19:16:38,639][INFO ][TestNG-test=Regression Tests-5] ===================== Execution started: SearchCustomerTest =====================
-[2024-02-24T19:16:57,576][INFO ][TestNG-test=Regression Tests-5] TestNG-test=Regression Tests-5 : pages.homePage.HomePage: clickBankManagerLogin ==>  The user clicks the Bank Manager Login button from the Home Page.
-[2024-02-24T19:16:58,510][INFO ][TestNG-test=Regression Tests-5] TestNG-test=Regression Tests-5 : pages.bankManagerLogin.BankManagerPage: clickCustomers ==>  The user clicks on the Customers button from the Bank Manager page.
-[2024-02-24T19:17:03,477][INFO ][TestNG-test=Regression Tests-5] TestNG-test=Regression Tests-5 : pages.bankManagerLogin.BankManagerPage: clickCustomers ==>  The Search Customer bar and the Customers Table are both visible.
-[2024-02-24T19:17:03,558][INFO ][TestNG-test=Regression Tests-5] TestNG-test=Regression Tests-5 : pages.bankManagerLogin.BankManagerPage: searchCustomer ==>  The user checks the number of entries in the Customers table, which is: 5
-[2024-02-24T19:17:07,060][INFO ][TestNG-test=Regression Tests-5] TestNG-test=Regression Tests-5 : pages.bankManagerLogin.BankManagerPage: searchCustomer ==>  The user enters in the Search Customer bar the first name of the first customer in the table.
-[2024-02-24T19:17:07,365][INFO ][TestNG-test=Regression Tests-5] TestNG-test=Regression Tests-5 : pages.bankManagerLogin.BankManagerPage: searchCustomer ==>  The user notices that the Customers Table size changed to display only the Customer for which the search was performed.
-[2024-02-24T19:17:07,454][INFO ][TestNG-test=Regression Tests-5] ===================== Execution ended: SearchCustomerTest =====================
+[2024-02-24T20:51:04,282][INFO ][TestNG-test=Regression Tests-4] ===================== Execution started: SearchCustomerTest =====================
+Contents of file CustomerLoginTest.log
+[2024-02-24T20:51:04,278][INFO ][TestNG-test=Regression Tests-2] ===================== Execution started: CustomerLoginTest =====================
 Contents of file HomePageTest.log
-[2024-02-24T19:16:38,646][INFO ][TestNG-test=Regression Tests-1] ===================== Execution started: HomePageTest =====================
-[2024-02-24T19:16:55,851][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : helperMethods.PageMethods: validatePageTitle ==>  The Page title is visible and correct:XYZ Bank
-[2024-02-24T19:16:56,711][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.homePage.HomePage: validateVisibilityOfHomePageElements ==>  The header is visible on the Home Page.
-[2024-02-24T19:16:57,152][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.homePage.HomePage: validateVisibilityOfHomePageElements ==>  The header Home button is visible on the Home Page.
-[2024-02-24T19:16:57,441][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.homePage.HomePage: validateVisibilityOfHomePageElements ==>  The Customer Login button is visible on the Home Page.
-[2024-02-24T19:16:58,277][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.homePage.HomePage: validateVisibilityOfHomePageElements ==>  The Bank Manager Login button is visible on the Home Page.
-[2024-02-24T19:16:59,156][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.homePage.HomePage: clickHomeButton ==>  The user clicks the Home button from the header to navigate to the Home Page.
-[2024-02-24T19:16:59,167][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.homePage.HomePage: checkHomeButtonFunctionality ==>  The page URL doesn't change, the user is still on the Home Page.
-[2024-02-24T19:16:59,875][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.homePage.HomePage: clickCustomerLoginButton ==>  The user clicks the Customer Login button from the Home Page.
-[2024-02-24T19:17:02,630][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.homePage.HomePage: checkCustomerLoginButtonFunctionality ==>  The user successfully navigates to the Customer Login page; the Your Name field is visible.
-[2024-02-24T19:17:02,644][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.homePage.HomePage: checkCustomerLoginButtonFunctionality ==>  The Customer Login page URL is correct: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/customer
-[2024-02-24T19:17:03,606][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.homePage.HomePage: clickHomeButton ==>  The user clicks the Home button from the header to navigate to the Home Page.
-[2024-02-24T19:17:03,776][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.homePage.HomePage: clickBankManagerLogin ==>  The user clicks the Bank Manager Login button from the Home Page.
-[2024-02-24T19:17:04,470][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.homePage.HomePage: checkBankManagerButtonFunctionality ==>  The user successfully navigates to the Bank Manager Login page; the Add Customer button is visible.
-[2024-02-24T19:17:04,478][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.homePage.HomePage: checkBankManagerButtonFunctionality ==>  The Bank Manager Login page URL is correct: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/manager
-[2024-02-24T19:17:04,804][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.homePage.HomePage: clickHomeButton ==>  The user clicks the Home button from the header to navigate to the Home Page.
-[2024-02-24T19:17:04,946][INFO ][TestNG-test=Regression Tests-1] ===================== Execution ended: HomePageTest =====================
+[2024-02-24T20:51:04,257][INFO ][TestNG-test=Regression Tests-1] ===================== Execution started: HomePageTest =====================
 Contents of file GenericCustomerLoginTest.log
 [2024-02-24T19:16:38,627][INFO ][TestNG-test=Regression Tests-2] ===================== Execution started: GenericCustomerLoginTest =====================
 [2024-02-24T19:16:58,612][INFO ][TestNG-test=Regression Tests-2] TestNG-test=Regression Tests-2 : pages.homePage.HomePage: clickCustomerLoginButton ==>  The user clicks the Customer Login button from the Home Page.
@@ -53,34 +17,9 @@ Contents of file GenericCustomerLoginTest.log
 [2024-02-24T19:17:04,834][INFO ][TestNG-test=Regression Tests-2] TestNG-test=Regression Tests-2 : pages.customerLogin.CustomerLoginPage: loginAndLogoutCustomer ==>  The customer logout was successful, the Customer Login page is once more displayed.
 [2024-02-24T19:17:04,974][INFO ][TestNG-test=Regression Tests-2] ===================== Execution ended: GenericCustomerLoginTest =====================
 Contents of file DeleteCustomerTest.log
-[2024-02-24T19:17:04,960][INFO ][TestNG-test=Regression Tests-1] ===================== Execution started: DeleteCustomerTest =====================
-[2024-02-24T19:17:15,086][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.homePage.HomePage: clickBankManagerLogin ==>  The user clicks the Bank Manager Login button from the Home Page.
-[2024-02-24T19:17:16,034][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.bankManagerLogin.BankManagerPage: clickCustomers ==>  The user clicks on the Customers button from the Bank Manager page.
-[2024-02-24T19:17:18,368][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.bankManagerLogin.BankManagerPage: clickCustomers ==>  The Search Customer bar and the Customers Table are both visible.
-[2024-02-24T19:17:18,404][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.bankManagerLogin.BankManagerPage: deleteCustomer ==>  The user checks the size of the Customers table, which is: 5
-[2024-02-24T19:17:18,758][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.bankManagerLogin.BankManagerPage: deleteCustomer ==>  The user successfully deletes the first entry in the Customers table. 
-[2024-02-24T19:17:18,795][INFO ][TestNG-test=Regression Tests-1] TestNG-test=Regression Tests-1 : pages.bankManagerLogin.BankManagerPage: deleteCustomer ==>  The user re-checks the Customers table size, which reflects that 1 customer was deleted and now is: 4
-[2024-02-24T19:17:18,885][INFO ][TestNG-test=Regression Tests-1] ===================== Execution ended: DeleteCustomerTest =====================
+[2024-02-24T20:51:36,736][INFO ][TestNG-test=Regression Tests-4] ===================== Execution started: DeleteCustomerTest =====================
 Contents of file AddCustomerTest.log
-[2024-02-24T19:16:55,685][INFO ][TestNG-test=Regression Tests-3] ===================== Execution started: AddCustomerTest =====================
-[2024-02-24T19:17:07,645][INFO ][TestNG-test=Regression Tests-3] TestNG-test=Regression Tests-3 : pages.homePage.HomePage: clickBankManagerLogin ==>  The user clicks the Bank Manager Login button from the Home Page.
-[2024-02-24T19:17:08,571][INFO ][TestNG-test=Regression Tests-3] TestNG-test=Regression Tests-3 : pages.bankManagerLogin.BankManagerPage: clickCustomers ==>  The user clicks on the Customers button from the Bank Manager page.
-[2024-02-24T19:17:11,091][INFO ][TestNG-test=Regression Tests-3] TestNG-test=Regression Tests-3 : pages.bankManagerLogin.BankManagerPage: clickCustomers ==>  The Search Customer bar and the Customers Table are both visible.
-[2024-02-24T19:17:11,114][INFO ][TestNG-test=Regression Tests-3] TestNG-test=Regression Tests-3 : pages.bankManagerLogin.BankManagerPage: addCustomer ==>  The user checks the current number of rows in the Customers table, which is: 5
-[2024-02-24T19:17:12,489][INFO ][TestNG-test=Regression Tests-3] TestNG-test=Regression Tests-3 : pages.bankManagerLogin.BankManagerPage: clickAddCustomer ==>  The user clicks on the Add Customer button from the Bank Manager page and the Add Customer form appears.
-[2024-02-24T19:17:14,019][INFO ][TestNG-test=Regression Tests-3] TestNG-test=Regression Tests-3 : pages.bankManagerLogin.BankManagerPage: addCustomerFillFirstName ==>  The user fills in the First Name field with the value: Letitia 1708798632489
-[2024-02-24T19:17:15,249][INFO ][TestNG-test=Regression Tests-3] TestNG-test=Regression Tests-3 : pages.bankManagerLogin.BankManagerPage: addCustomerFillLastName ==>  The user fills in the Last Name field with the value: Carciu
-[2024-02-24T19:17:15,583][INFO ][TestNG-test=Regression Tests-3] TestNG-test=Regression Tests-3 : pages.bankManagerLogin.BankManagerPage: addCustomerFillPostCode ==>  The user fills in the Post Code field with the value: 123456789
-[2024-02-24T19:17:16,072][INFO ][TestNG-test=Regression Tests-3] TestNG-test=Regression Tests-3 : pages.bankManagerLogin.BankManagerPage: addCustomer ==>  The user clicks the Add Customer CTA button under the Add Customer form.
-[2024-02-24T19:17:16,078][INFO ][TestNG-test=Regression Tests-3] TestNG-test=Regression Tests-3 : pages.bankManagerLogin.BankManagerPage: addCustomer ==>  A confirmation alert is displayed and the user closes it successfully.
-[2024-02-24T19:17:16,738][INFO ][TestNG-test=Regression Tests-3] TestNG-test=Regression Tests-3 : pages.bankManagerLogin.BankManagerPage: clickCustomers ==>  The user clicks on the Customers button from the Bank Manager page.
-[2024-02-24T19:17:16,859][INFO ][TestNG-test=Regression Tests-3] TestNG-test=Regression Tests-3 : pages.bankManagerLogin.BankManagerPage: clickCustomers ==>  The Search Customer bar and the Customers Table are both visible.
-[2024-02-24T19:17:16,909][INFO ][TestNG-test=Regression Tests-3] TestNG-test=Regression Tests-3 : pages.bankManagerLogin.BankManagerPage: validateAddCustomer ==>  A new entry has been added to the Customers table and the new number of rows is: 6
-[2024-02-24T19:17:18,818][INFO ][TestNG-test=Regression Tests-3] TestNG-test=Regression Tests-3 : pages.bankManagerLogin.BankManagerPage: validateAddCustomer ==>  The last entry in the Customers table contains the first name of the newly added user: Letitia 
-[2024-02-24T19:17:18,819][INFO ][TestNG-test=Regression Tests-3] TestNG-test=Regression Tests-3 : pages.bankManagerLogin.BankManagerPage: validateAddCustomer ==>  The last entry in the Customers table contains the last name of the newly added user: Carciu
-[2024-02-24T19:17:18,820][INFO ][TestNG-test=Regression Tests-3] TestNG-test=Regression Tests-3 : pages.bankManagerLogin.BankManagerPage: validateAddCustomer ==>  The last entry in the Customers table contains the post code of the newly added user: 123456789
-[2024-02-24T19:17:18,820][INFO ][TestNG-test=Regression Tests-3] TestNG-test=Regression Tests-3 : pages.bankManagerLogin.BankManagerPage: validateAddCustomer ==>  There is no Account Number associated with the newly created Customer, as none was yet created.
-[2024-02-24T19:17:18,906][INFO ][TestNG-test=Regression Tests-3] ===================== Execution ended: AddCustomerTest =====================
+[2024-02-24T20:51:04,268][INFO ][TestNG-test=Regression Tests-5] ===================== Execution started: AddCustomerTest =====================
 Contents of file CustomerAccountTest.log
 [2024-02-24T17:14:57,662][INFO ][main] ===================== Execution started: CustomerAccountTest =====================
 [2024-02-24T17:15:08,697][ERROR][main] main : sharedData.Hooks: clearEnvironment ==>  Element should have been "select" but was "strong"
