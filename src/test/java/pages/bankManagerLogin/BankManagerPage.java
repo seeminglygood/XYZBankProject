@@ -10,11 +10,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import pages.BasePage;
 
-import java.sql.Array;
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Logger;
 
 public class BankManagerPage extends BasePage {
     public BankManagerPage(WebDriver driver) {
