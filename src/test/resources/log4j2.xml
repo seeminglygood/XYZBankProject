@@ -12,7 +12,8 @@
                             name="appender-${ctx:threadName}"
                             append="false">
                         <PatternLayout>
-                            <Pattern>[%date{ISO8601}][%-5level][%t] %m%n</Pattern>
+<!--                            <Pattern>[%date{ISO8601}][%-5level][%t] %m%n</Pattern>-->
+                            <Pattern>[%date{ISO8601}][%-5level]%m%n</Pattern>
                         </PatternLayout>
                     </File>
                 </Route>
